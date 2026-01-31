@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+*.log
+
+# Airflow
+logs/
+airflow.db
+airflow-webserver.pid
+
+# Docker
+*.pid
+
+# Dados locais
+dados/
+*.csv
+
+# Credenciais
+credencial_json/
+*.json
+
+# Notebooks
+notebooks_apoio
+
+#Outros
+config
+plugins
