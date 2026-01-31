@@ -37,7 +37,7 @@ Este projeto resolve esse problema ao aplicar práticas de **engenharia de dados
 ## 🧱 Arquitetura da Solução
 
 - **PostgreSQL**: Armazenamento dos dados tratados
-- **Apache Airflow (CeleryExecutor)**: Orquestração das pipelines
+- **Apache Airflow**: Orquestração dos pipelines
 - **Docker Compose**: Padronização do ambiente
 - **Google Sheets API**: Camada final de visualização e compartilhamento
 
@@ -72,7 +72,7 @@ Dados Brutos → PostgreSQL → Airflow (ETL) → Google Sheets
 - PostgreSQL
 - SQLAlchemy
 - Apache Airflow
-- Docker & Docker Compose
+- Docker 
 - Google Sheets API
 
 ## ▶️ Como Executar o Projeto
