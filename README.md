@@ -102,7 +102,9 @@ DB_NAME=registro_acidentes
 PATH_PRF=/opt/airflow/data/datatran2025.csv
 As credenciais do Google Sheets são montadas via volume Docker e referenciadas por variável de ambiente.
 
-📌 Boas Práticas Aplicadas
+
+## 📌 Boas Práticas Aplicadas
+
 Separação clara entre DAGs e lógica de pipeline
 
 Uso correto de XCom (sem arquivos intermediários)
@@ -113,7 +115,9 @@ Proteção de credenciais via .gitignore
 
 Projeto preparado para múltiplas DAGs
 
-🚀 Possíveis Evoluções
+
+## 🚀 Possíveis Evoluções
+
 Persistência em Data Lake (S3 / GCS)
 
 Uso de formato Parquet
