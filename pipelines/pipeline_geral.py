@@ -41,7 +41,7 @@ def transform(df):
         "fase_dia" : "Fase_dia",
     }, inplace= True)
 
-    df_tempo['Data'] = pd.to_datetime(df_tempo['Data'], errors = "coerce")
+    df_tempo['Data'] = pd.to_datetime(df_tempo['Data'], errors = "coerce").dt.date
     df_tempo['Horario'] = pd.to_datetime(df_tempo['Horario'], errors = "coerce").dt.time
     df_tempo['Id_tempo'] = df_tempo.index +1
 
