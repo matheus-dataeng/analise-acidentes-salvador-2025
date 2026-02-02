@@ -26,6 +26,5 @@ LEFT JOIN tipo_acidente as tip
 LEFT JOIN  via
 	ON aci."Id_acidente" = via."Id_acidente"
 WHERE loc."UF" = 'BA' AND loc."Municipio" = 'Salvador'
-ORDER BY loc."Id_localizacao" ASC, temp."Data" ASC
-
+ORDER BY temp."Data" ASC
 
