@@ -24,7 +24,7 @@ x-airflow-common: &airflow-common
       gspread-dataframe==4.0.0
       oauth2client==4.1.3
 
-    GOOGLE_SHEETS_CREDENTIALS: /opt/airflow/secrets/pythonpraticas-1b22846ff6a0.json
+    
 
   volumes:
     - ./dags:/opt/airflow/dags
