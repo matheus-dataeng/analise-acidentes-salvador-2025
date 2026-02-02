@@ -53,7 +53,6 @@ services:
       - "5433:5432"
     volumes:
       - postgres-db-volume:/var/lib/postgresql/data
-      - ./init-db:/docker-entrypoint-initdb.d
     healthcheck:
       test: ["CMD", "pg_isready", "-U", "airflow"]
       interval: 10s
